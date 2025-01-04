@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\udemypractice\\ngdotnet\\DatingApp\\API\\API.csproj": {}
+    "E:\\udemypractice\\ngdotnet\\DatingApp\\api\\API.csproj": {}
   },
   "projects": {
-    "E:\\udemypractice\\ngdotnet\\DatingApp\\API\\API.csproj": {
+    "E:\\udemypractice\\ngdotnet\\DatingApp\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\udemypractice\\ngdotnet\\DatingApp\\API\\API.csproj",
+        "projectUniqueName": "E:\\udemypractice\\ngdotnet\\DatingApp\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "E:\\udemypractice\\ngdotnet\\DatingApp\\API\\API.csproj",
+        "projectPath": "E:\\udemypractice\\ngdotnet\\DatingApp\\api\\API.csproj",
         "packagesPath": "C:\\Users\\medvalloper\\.nuget\\packages\\",
-        "outputPath": "E:\\udemypractice\\ngdotnet\\DatingApp\\API\\obj\\",
+        "outputPath": "E:\\udemypractice\\ngdotnet\\DatingApp\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\medvalloper\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
